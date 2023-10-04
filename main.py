@@ -1,3 +1,3 @@
 o = open("Boss.txt", "r")
-print(o.readlines(6))
+print(o.read(90))
 
