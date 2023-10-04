@@ -1,3 +1,3 @@
-o = open("boss.txt", "w", encoding="utf-8")
-j = ['saeid\n', 'reza\n']
-o.writelines(j)
+o = open("Boss.txt", "rb")
+j = b'reza\n dolati'
+print(o.readline(3))
