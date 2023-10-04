@@ -1,6 +1,3 @@
 o = open("Boss.txt", "r")
-print(o.readline(), end="")
-print(o.readline(), end="")
-print(o.readline(), end="")
-print(o.readline(), end="")
-print(o.readline(), end="")
+print(o.readlines(6))
+
