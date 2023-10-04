@@ -1,3 +1,6 @@
-o = open("Boss.txt", "rb")
-j = b'reza\n dolati'
-print(o.readline(3))
+o = open("Boss.txt", "r")
+print(o.readline(), end="")
+print(o.readline(), end="")
+print(o.readline(), end="")
+print(o.readline(), end="")
+print(o.readline(), end="")
