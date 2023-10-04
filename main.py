@@ -1,2 +1,3 @@
-o = open("Boss.txt", "w")
-print(o.write("Saeid Yazdi is coming!!!"))
+o = open("Boss.txt", "r")
+
+print(o.readline())
