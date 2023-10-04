@@ -1,6 +1,3 @@
-o = open("boss.txt", "r", encoding="utf-8")
-# s = ("YazdiΩ")
-# if o.writable():
-#     print(o.write(s))
-if o.readable():
-    print(o.readline())
+o = open("boss.txt", "w", encoding="utf-8")
+j = ['saeid\n', 'reza\n']
+o.writelines(j)
